@@ -17,6 +17,7 @@ const Search=()=>{
                 <h2> Your Company Emp no {key.empno}</h2>
                 <h2> Your Designation : {key.designation}</h2>
                 <h3> Your CTC : {key.salary}</h3>
+                
             </>
         )
     })
