@@ -3,14 +3,7 @@ import { useState, useEffect } from "react";
 import Table from 'react-bootstrap/Table';
 
 
- const [currentPage, setCurrentPage]= useState(1);
-  const recordsPerPage=5;
-  const lastIndex= currentPage*recordsPerPage;
-  const firstIndex= lastIndex-recordsPerPage;
-  const records= Data.slice(firstIndex, lastIndex);
-  const npage= Math.ceil(Data.length/recordsPerPage);
-  const numbers=[...Array(npage+1).keys()].slice(1);
-  
+ 
 const Display=()=>{
 const [mydata, setMydata]= useState([]);
 
