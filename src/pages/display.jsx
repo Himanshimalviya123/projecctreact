@@ -166,10 +166,7 @@ function nextPage()
          </li>
          </ul>
       </nav>
-
-
-        </>
-        
+        </>   
     )
 }
 export default Display;

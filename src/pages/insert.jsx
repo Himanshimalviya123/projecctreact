@@ -3,8 +3,6 @@ import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
-
-
 const Insert=()=>{
     const [input, setInput] = useState({});
 
@@ -53,9 +51,7 @@ const Insert=()=>{
       </Button>
     </Form>
     </div>
-
-
-    <ToastContainer />
+<ToastContainer />
         </>
     )
 }
